@@ -1,9 +1,6 @@
 
-import pandas as pd
-import numpy as np
 from sklearn.cluster import KMeans
 import matplotlib.pyplot as plt
-from mpl_toolkits.mplot3d import Axes3D
 from data_layer  import Data_layer
 from preprocessing import Preprocessing
 
