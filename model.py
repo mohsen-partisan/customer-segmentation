@@ -1,14 +1,14 @@
 
 from sklearn.cluster import KMeans
 import matplotlib.pyplot as plt
-from data_layer  import Data_layer
+from data_handler  import DataHandler
 from preprocessing import Preprocessing
 
 class Model:
 
 
     def get_data(self):
-       data = Data_layer().read_data()
+       data = DataHandler().read_data()
 
        return data
 
@@ -38,7 +38,7 @@ class Model:
     def clustering(self, data):
         kmeans = KMeans(n_clusters=4, init='k-means++', max_iter=1000, n_init=10)
         prediction = kmeans.fit_predict(data)
-        df = Data_layer().read_data()
+        df = DataHandler().read_data()
         df['Clusters'] = prediction
 
         return df, kmeans

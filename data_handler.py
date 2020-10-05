@@ -2,7 +2,7 @@
 import  pandas as pd
 from matplotlib import pyplot as plt
 
-class Data_layer:
+class DataHandler:
 
     def read_data(self):
         data = pd.read_csv('data/Mall_Customers.csv')
@@ -72,7 +72,7 @@ class Data_layer:
 
 
 
-dl = Data_layer()
+dl = DataHandler()
 # dl.data_statistics()
 # dl.gender_pie_plot()
 # dl.gender_bar_plot()
