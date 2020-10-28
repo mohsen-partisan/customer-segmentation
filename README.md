@@ -7,10 +7,10 @@ A project to identify clusters of customers. I used a dataset of mall customers.
 ![Alt text](/img/gender_plot.png?raw=true "Gender Plot: ")
 
 
-![Alt text](/img/Density Plot.png?raw=true "density_plot: ")
+![Alt text](/img/density_plot.png?raw=true "Density Plot: ")
 
 
-![Alt text](/img/Annual Income.png?raw=true "annual_income: ")
+![Alt text](/img/annual_income.png?raw=true "Annual Income: ")
 
 
 I used K-means clustering to cluster customers. for finding proper value of k in K-means I used elbow method.
