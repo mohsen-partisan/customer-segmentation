@@ -1,5 +1,5 @@
 # customer-segmentation
-A project to identify clusters of customers. I used a dataset of mall customers. First, i analyzed data using data statistics and data visualization teqniques.
+A project to identify clusters of customers. I used a dataset of mall customers. First, I analyzed data using data statistics and data visualization techniques.
 
 ![Alt text](/img/data_statistics.png?raw=true "Statistic Analysis: ")
 
